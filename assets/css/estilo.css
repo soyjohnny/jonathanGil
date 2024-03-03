@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* ..............Navbar............... */
+.navbar{
+    background-color: #0B1F22;
+}
+
+@media (max-width: 992px) {
+    .ul-bg{
+        background-color: #0B1F22;
+    }   
+}
+
+.nav-link{
+    color: #ffffff;
+}
+.nav-link:hover,
+.nav-link.active{
+    color:#00E674;
+}
+
+.btn-nav{
+    border-radius: 100px;
+    padding: 14px 40px;
+    background-color: #ffffff;
+    color:#0B1F22;
+    text-decoration: none;
+}
+.btn-nav:hover{
+    background-color: #00E674;
+    color: #ffffff;
+}
+
+/*...............Sección hero........................ */
+.hero{
+    background-color: #0B1F22;
+}
+h1{
+    font-size: 55px;
+}
+.parrafo-hero span{
+    color: #00E674;
+}
+.btn{
+    border-radius: 100px;
+    padding: 14px 40px;
+}
+.btn-hero{
+    background-color:#FFFF00;
+    color:#0B1F22;
+}
+.btn-hero:hover{
+    background-color: #00E674;
+    color: #ffffff;
+}
+
+.section-img{
+background-image:url(/assets/img/hero-img.png);
+background-size: cover;
+width: 100%;
+height: 600px;
+}
+.text-white{
+    margin-top: 90px;
+}
+
+
+/* ....................Sección cards/iconos................ */
+.color-subtitulos{
+    color: #40464d;
+}
+.color-parrafos{
+    color: #6b737d;
+}
+.card-img{
+    width: 80px;
+    margin-left: 10px;
+}
+
+
+/* .....................Sección imagen/texto.............. */
+.color-fondo{
+    background-color: #F8F4EE;
+    border-radius: 10px;
+}
+.img-izquierda{
+    height: 550px;
+    margin-top: 40px;
+}
+.textos{
+    margin-top: 40px;
+}
+.titular-color{
+    color: #8BA15C;
+}
+.btn{
+    border-radius: 100px;
+    padding: 14px 40px;
+}
+.btn-brand{
+    background-color: #0B1F22;
+    color: #ffffff;
+} 
+.btn-brand:hover{
+    background-color: #0B1F22;
+    color: #ffffff;
+} 
+
+/* ///////////////////////TERMINAN ESTILOS INICIO///////////////////////// */
+
+
+.center h1{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.galeria{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 300px);
+    margin-top: 100px;
+    grid-gap: 20px;
+
+}
+
+.item1{
+    background-color: #EEE5FB;
+    background-image: url(/assets/img/ventas-screen.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.item2{
+    background-color: #F8E7B1;
+    background-image: url(/assets/img/dashboard.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+.item3{
+    background-color: #32333B;
+    background-image: url(/assets/img/landing.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+.item4{
+    background-color: #C4F7FF;
+    background-image: url(/assets/img/ventas-screen.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+
+
+.bg-color{
+    margin-top: 50px;
+    background-color: #EBF9FD;
+}
+
+.iconos{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding-right: 28px;
+}
+
+.iconos-internos1 img{
+    height: 70px;
+}
+.iconos-internos1 h5{
+    margin-top: 15px;
+}
+.iconos-internos1 p{
+    margin-top: 10px;
+}
+
+.img-derecha{
+    width: 450px;
+        height: auto;
+}
+
+/* ////////////////////////////TERMINAN ESTILOS SERVICIOS///////////////////////// */
+
+/* ..............Navbar contacto............... */
+.nav-contact{
+    background-color: #ffffff;
+}
+.nav-link.verde{
+    color:#1A2D2F;
+}
+.nav-link.verde:hover{
+    color:#00E674;
+}
+
+.btn-nav.btn-green{
+    background-color: #0B1F22;
+    color: #FFFFFF;
+}
+.btn-nav.btn-green:hover{
+    background-color:#00E674;
+}
+/* ..............contacto............... */
+.textos-contact{
+    margin-top: 70px;
+}
+.tel{
+    color:#6b737d;
+}
+.correo{
+    color:#0B1F22;
+    font-size: 18px;
+}
+.redes-contact a{
+    text-decoration: none;
+    color: #0B1F22;
+}
+.espacio{
+    margin-right: 20px;
+}
+
+/* //////////////////////////TERMINAN ESTILOS CONTACTO//////////////////////// */
+
+
+
+/* .............................media query generales............................ */
+
+@media only screen and (min-width: 480px) and (max-width: 992px){
+    h1{
+        font-size: 45px;
+    }
+    .hero{
+        text-align: center;
+    }  
+
+    .textos-contact{
+        text-align: center;
+    }
+} 
+@media only screen and (min-width: 768px){
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, 300px);
+    }
+     .item1, .item2, .item3, .item4{
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;  
+    } 
+
+   
+}
+/* .............................media query Grid............................ */
+
+@media only screen and (min-width: 992px){
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, 300px);
+    }
+     .item1, .item2, .item3, .item4{
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center;  
+    } 
+    .hero{
+        text-align: left;
+    }
+}
+
+
+@media only screen and (min-width: 1200px){
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 300px);
+    }
+
+    .item1{
+        grid-column: 1/2;
+        grid-row:1/3;
+        background-size: 500px;
+    }
+    .item2{
+        grid-column: 2/3;
+        grid-row:1/2;
+    }
+    .item3{
+        grid-column: 2/3;
+        grid-row:2/3;
+    }
+    .item4{
+        grid-column: 3/1;
+        grid-row:3/4;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
