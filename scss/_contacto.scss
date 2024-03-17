@@ -1,0 +1,35 @@
+.textos-contact{
+    margin-top: 40px;
+    .titular-color{
+        color: $titulos-green;
+    }
+    margin-top: 70px;
+    .tel{
+        color:#6b737d;
+    }
+    .correo{
+        color:#0B1F22;
+        font-size: 18px;
+    }
+    .redes-contact{
+        a{
+            text-decoration: none;
+            color: #0B1F22;
+        }
+    } 
+    .espacio{
+        margin-right: 20px;
+    }
+    .btn{
+        border-radius: 100px;
+        padding: 14px 40px;
+    }
+    .btn-brand{
+        background-color: #0B1F22;
+        color: #ffffff;
+        &:hover{
+            background-color: #0B1F22;
+            color: #ffffff;
+        } 
+    }
+}

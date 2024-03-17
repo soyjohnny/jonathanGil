@@ -1,0 +1,42 @@
+/* ..............Navbar............... */
+.navbar{
+    background-color: $nav;
+    .nav-link:hover,
+    .nav-link.active{
+    color:#00E674;
+    }
+    .btn-nav{
+        border-radius: 100px;
+        padding: 14px 40px;
+        background-color: #ffffff;
+        color:#0B1F22;
+        text-decoration: none;
+        &:hover{
+            background-color: #00E674;
+            color: #ffffff;
+        }
+    }
+
+}
+@media (max-width: 992px) {
+    .ul-bg{
+        background-color: $nav;
+    }   
+}
+/* ..............Navbar contacto............... */
+.nav-contact{
+    background-color: #ffffff;
+}
+.nav-link.verde{
+    color:#1A2D2F;
+    &:hover{
+        color:#00E674;
+    }
+}
+.btn-nav.btn-green{
+    background-color: #0B1F22;
+    color: #FFFFFF;
+    &hover{
+        background-color:#00E674;
+    }
+}

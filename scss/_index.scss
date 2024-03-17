@@ -1,0 +1,79 @@
+/*...............Sección hero........................ */
+.hero{
+    background-color: $hero-color;
+    h1{
+        font-size: 55px;           
+    }
+    .text-white{
+        margin-top: 90px;
+    }
+    .parrafo-hero{
+        span{
+            color: #00E674;
+        } 
+    }
+    .btn{
+        border-radius: 100px;
+        padding: 14px 40px;
+    }
+    .btn-hero{
+        background-color:#FFFF00;
+        color:$btn-green;
+        .btn-hero{
+            &:hover{
+                background-color: #00E674;
+                color: #ffffff;
+            }
+        }
+    }      
+.section-img{
+        background-image:url(/assets/img/hero-img.png);
+        background-size: cover;
+        width: 100%;
+        height: 600px;
+        }        
+}
+/* ....................Sección cards/iconos................ */
+.color-subtitulos{
+    color: #40464d;
+    .color-parrafos{
+        color: #6b737d;
+    }
+}
+.card-group{
+    .card-img{
+        width: 80px;
+        margin-left: 10px;
+    }
+}
+
+/* .....................Sección imagen/texto.............. */
+.color-fondo{
+    background-color: #F8F4EE;
+    border-radius: 10px;
+    .img-izquierda{
+        height: 550px;
+        margin-top: 40px;
+    }
+    .titular-color{
+        color: $titulos-green;
+    }
+}
+.textos{
+    margin-top: 40px;
+    .titular-color{
+        color: #8BA15C;
+    }
+    .btn{
+        border-radius: 100px;
+        padding: 14px 40px;
+    }
+    .btn-brand{
+        background-color: #0B1F22;
+        color: #ffffff;
+        &:hover{
+            background-color: #0B1F22;
+            color: #ffffff;
+        } 
+    }
+} 
